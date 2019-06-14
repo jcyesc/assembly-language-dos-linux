@@ -1,0 +1,12 @@
+fopen
+
+Unlike standard otput, which is predefined for you by the C library
+and always available, you have to create or open a disk-based text file
+in order to use it. The fopen functin is what does the job.
+
+In the Unix file system, if you open a file for either writing or appending and
+the file does not already exist, the file is created. If you don't know if a
+file exists and you need to find out, attempt to open it for reading and not 
+for writing, or you'll get the file whether it exists or no.
+
+
